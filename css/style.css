@@ -1,0 +1,260 @@
+/*FONTS
+font-family: 'Questrial', sans-serif;
+font-family: 'Muli', sans-serif;*/
+
+/*Colors
+FFFFFF - White - Font
+000000 - Black
+495054 - Dark Gray
+707A7E - Medium Gray - Borders*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  color: #ffffff;
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  background-color: #495054;
+}
+
+@media only screen and (min-width: 320px) {
+
+  body {
+    margin: 0 auto 0 auto;
+    /*background: url("images/studio.jpg");*/
+  }
+}
+
+body {
+  background-color: #495054;
+}
+
+header {
+  padding-top: 5px;
+  background-color: #495054;
+}
+
+body .navigation {
+    color: #ffffff;
+    background-color: #495054;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+    border-bottom: none;
+  }
+
+body .navigation span {
+  color: #ffffff;
+  -webkit-transform: rotate(90deg);
+}
+
+body .nav-tabs {
+  border-bottom: none;
+}
+
+body .navigation .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #495054;
+    background-color: none;
+    border-radius: 0px;
+}
+
+body .dropdown-menu {
+    min-width: 150px;
+    min-height: 125px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #495054;
+    border: 0px solid;
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.75);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+body .nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #495054;
+    radius: 0px;
+    border-color: none;
+}
+
+body .dropdown-menu li a {
+  color: #ffffff;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-family: 'Questrial', sans-serif;
+}
+
+body header .nav-tabs>li>a {
+    border-radius: 0px;
+    border-color: transparent;
+}
+
+#myname a {
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  /*margin-left: 55px;*/
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  color: #ffffff;
+}
+
+img {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #707A7E;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header ul li:last-of-type {
+  margin-top: 0.55em;
+}
+
+section {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+section:first-of-type {
+  margin-top: 0px;
+}
+
+section a {
+  text-decoration: none;
+  color: white;
+}
+
+h2 h3 {
+  font-family: 'Muli', sans-serif;
+}
+
+#landing_page {
+  height: 527px;
+  background-image: url("images/studio.jpg");
+}
+
+#landing_page h1:first-of-type {
+  margin: 0px;
+  margin-left: 50px;
+  padding-top: 200px;
+}
+
+#landing_page h1{
+  font-size: 24px;
+  color: white;
+  /*margin: 0px;*/
+  margin-left: 50px;
+  border-left-width: 1px;
+  border-color: #ffffff;
+  line-height: .6em;
+}
+
+#work_page h2 {
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-color: #ffffff;
+}
+
+#programming {
+  color: white;
+}
+
+#aboutimg {
+
+  border-radius: 50%;
+}
+
+#git {
+  border: none;
+}
+
+#twitter {
+  border: none;
+}
+
+.me {
+  font-size: 14px;
+  font-weight: 400;
+  float: left;
+  margin-right: 20px;
+}
+
+.social_icons {
+  margin-top: 30px;
+  float: right;
+  height: 35px;
+  width: 35px;
+  margin-right: 20px;
+}
+
+footer {
+  margin-top: 125px;
+  text-align: center;
+  font-size: 12px;
+  /*background-color: #707A7E;*/
+}
+
+@media only screen and (min-width: 321px) and (max-height: 667px){
+
+  body {
+    margin: 0 auto 0 auto;
+    /*background: url("images/studio.jpg");*/
+  }
+}
+
+#landing_page {
+  height: 667px;
+  background-image: url("images/studio.jpg");
+}
+
+@media only screen and (min-width: 800px) {
+
+  body {
+    margin: 0 auto 0 auto;
+    max-width: 900px;
+    /*background: url("images/studio.jpg");*/
+  }
+
+img {
+    max-width: 75%;
+  }
+
+#aboutimg {
+    max-width: 50%;
+    border-radius: 70%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#*/
